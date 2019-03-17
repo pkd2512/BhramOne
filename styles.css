@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body { 
+    margin:0; 
+    padding:0; 
+    font-family: 'Nunito', sans-serif!important;
+    color: aliceblue!important;
+}
+#map { 
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    width:100%; 
+    padding: 0;
+    z-index: 0;
+}
+#menu {
+    background-color: #212130;
+    opacity: 0.9;
+    min-height: 90vh;
+    scroll-behavior: auto;
+    z-index: 10;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+#labelSwitch {
+    margin-top: 1rem;
+}
+
+/* Overrides */
+/* button:focus {
+    outline: none!important;
+    outline: none!important;
+} */
+.btn-secondary.focus,.btn-secondary:focus {
+    box-shadow: none!important;
+}
+.btn-secondary {
+    background: none!important;
+}
+.btn-secondary.active, .btn-secondary:active {
+    background: #17a2b8!important;
+}
